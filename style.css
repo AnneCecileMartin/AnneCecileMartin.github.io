@@ -48,17 +48,20 @@ nav a:hover {
 }
 
 /* ----------------Media queries / responsive---------------- */
-@media screen and (max-width: 576px) and (orientation:portrait) {
+@media screen and (min-width: 200px) and (max-width: 576px) and (orientation:portrait) {
     #hebergement {
+        background-color:none;
+    }
+    /* #popular {
         display: flex;
-        flex-direction: column;
         background-color: #F2F2F2;
-        width: 59.1em;
-        height: 40.65em;
+        width: 26em;
+        height: 40.625em;
+        margin: -40.6em 0 0 74em;
         border: 5px;
-        margin: 2% auto 0 10%;
         border-bottom: 2px;
-        border-radius: 14px;
+        border-radius: 13px;
+    } */
 }
 @media screen and (max-width: 750px) and (orientation:portrait) {
 
